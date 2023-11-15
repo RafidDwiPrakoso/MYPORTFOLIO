@@ -1,0 +1,50 @@
+@media only screen and (max-width: 670px) {
+    header h1 {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+
+    header nav {
+        font-size: 20px;
+    }
+    header ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -60px;
+        margin-top: -70px; 
+        margin-left: -80px;
+    }
+
+    header i {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .foto {
+        display: flex;
+      justify-content: center;     
+    }
+
+    main article {
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+
+    article {
+        font-family: 'poppins', sans-serif;
+        font-weight: 570;
+        
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1.3px rgb(255, 255, 255);
+        transition: 0.7s;
+        word-spacing: 4px;
+    }
+    article:hover {
+        font-size: 15px;
+        transition-duration: 0.7s;
+    }
+
+}
